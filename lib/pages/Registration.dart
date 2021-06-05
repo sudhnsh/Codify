@@ -13,15 +13,6 @@ class RegiState extends State<Regi> {
   static final codeforcesController = TextEditingController();
   static final codechefController = TextEditingController();
 
-  _launchURLBrowser() async {
-    const url = 'https://www.geeksforgeeks.org/';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +26,7 @@ class RegiState extends State<Regi> {
             color: Colors.black,
             elevation: 10,
             child: Container(
-              padding: EdgeInsets.symmetric(vertical: 90, horizontal: 20),
+              padding: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,

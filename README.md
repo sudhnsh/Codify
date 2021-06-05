@@ -8,8 +8,8 @@ Codeforces
 ### It may contain some bugs as it is just the first version you can download the apk
 
 ## Screenshots
-![](./assests/Homepage.jpg)
+![](./assests/HomePage.jpg)
 ![](./assests/CCUser.jpg)
 ![](./assests/CFUser.jpg)
-![](./assests/Contestq.jpg)
+![](./assests/Contest.jpg)
 ![](./assests/Analysis.jpg)
