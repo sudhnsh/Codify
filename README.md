@@ -5,10 +5,8 @@ A simple app to see your upcoming coding contests and analyse your previous perf
 [Download Link](https://github.com/sudhnsh/Codify/blob/main/release/Codify.apk)
 
 ## Platform Supported till now
-Codechef 
-Codeforces
-
-### It may contain some bugs as it is just the first version you can download the apk
+#### Codechef 
+#### Codeforces
 
 ## Screenshots
 ![](./assests/HomePage.jpg)
