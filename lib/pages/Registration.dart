@@ -57,6 +57,8 @@ class RegiState extends State<Regi> {
                       },
                       decoration: InputDecoration(
                           labelStyle: TextStyle(color: Colors.white),
+                          enabledBorder: UnderlineInputBorder(
+                              borderSide: BorderSide(color: Colors.white)),
                           labelText: 'Codechef Username',
                           focusColor: Colors.white,
                           focusedBorder: OutlineInputBorder(
@@ -91,6 +93,8 @@ class RegiState extends State<Regi> {
                       },
                       decoration: InputDecoration(
                           labelStyle: TextStyle(color: Colors.white),
+                          enabledBorder: UnderlineInputBorder(
+                              borderSide: BorderSide(color: Colors.white)),
                           labelText: 'Codeforces Username',
                           focusColor: Colors.white,
                           focusedBorder: OutlineInputBorder(
