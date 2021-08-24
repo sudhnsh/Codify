@@ -1,12 +1,9 @@
 # Codify: Code and Analysis
-A simple app to see your upcoming coding contests and analyse your previous performance
+Codify is a simple flutter based mobile application for competitive programmer which tells them the upcoming competitive programming contests.It also shows their recent performance (their recent ratings changes). It uses Codeforces API to collect the data of the user and upcoming contests. Currently it supports Codechef and Codeforces website. 
 
 # Download the android version
 [Download Link](https://github.com/sudhnsh/Codify/releases/download/flutter/Codify.apk)
 
-## Platform Supported till now
-#### Codechef 
-#### Codeforces
 
 ## Screenshots
 ![](./assests/HomePage.jpg)

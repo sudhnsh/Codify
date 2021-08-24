@@ -1,6 +1,6 @@
 import 'package:codeforces/pages/ccmain.dart';
 import 'package:codeforces/pages/contest.dart';
-import 'package:url_launcher/url_launcher.dart';
+
 import '../main.dart';
 import 'package:flutter/material.dart';
 
