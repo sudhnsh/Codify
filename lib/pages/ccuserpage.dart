@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../ccuserapi.dart';
 import 'Registration.dart';
+import 'package:flutter_colored_progress_indicators/flutter_colored_progress_indicators.dart';
 
 class Myregisterpage extends StatefulWidget {
   @override
@@ -9,7 +10,9 @@ class Myregisterpage extends StatefulWidget {
 
 class MyregisterpageState extends State<Myregisterpage> {
   UserManager userManager = new UserManager(Uri.parse(
-      'https://competitive-coding-api.herokuapp.com/api/codechef/' +
+      'https://competitive-coding-api.herokuapp.com/api' +
+          '/codechef' +
+          '/' +
           RegiState.codechefController.text));
   Future<Users> user;
   @override
@@ -117,7 +120,7 @@ class MyregisterpageState extends State<Myregisterpage> {
                                 ],
                               );
                             else
-                              return CircularProgressIndicator();
+                              return ColoredCircularProgressIndicator();
                           }
                         })
                   ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_colored_progress_indicators/flutter_colored_progress_indicators.dart';
 import 'Registration.dart';
 import '../analyticsapi.dart';
 
@@ -447,7 +448,7 @@ class _RatingChangeState extends State<RatingChange> {
                                 ],
                               );
                             else
-                              return CircularProgressIndicator();
+                              return ColoredCircularProgressIndicator();
                           }
                         })
                   ],

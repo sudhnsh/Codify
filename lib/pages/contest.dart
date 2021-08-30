@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:codeforces/contestapi.dart';
+import 'package:flutter_colored_progress_indicators/flutter_colored_progress_indicators.dart';
 
 class Contest extends StatefulWidget {
   @override
@@ -110,7 +111,9 @@ class ContestState extends State<Contest> {
               ),
             );
           } else
-            return CircularProgressIndicator();
+            return Center(
+              child: ColoredCircularProgressIndicator(),
+            );
         },
       ),
     );

@@ -42,14 +42,11 @@ class MyHomePageState extends State<MyHomePage> {
           width: double.maxFinite,
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 40),
           child: Card(
-            color: Colors.grey[50],
+            elevation: 5,
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+            color: Colors.black,
             child: Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.blue,
-                  width: 6,
-                ),
-              ),
               padding: EdgeInsets.all(20),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../usersapi.dart';
 import 'Registration.dart';
+import 'package:flutter_colored_progress_indicators/flutter_colored_progress_indicators.dart';
 
 class Myregisterpage extends StatefulWidget {
   @override
@@ -146,7 +147,7 @@ class MyregisterpageState extends State<Myregisterpage> {
                                 ],
                               );
                             else
-                              return CircularProgressIndicator();
+                              return ColoredCircularProgressIndicator();
                           }
                         })
                   ],
