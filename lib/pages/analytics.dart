@@ -343,7 +343,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .result
                                                                   .length -
-                                                              2]
+                                                              1]
                                                           .newRating) -
                                                       (snapshot
                                                           .data
@@ -351,7 +351,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .result
                                                                   .length -
-                                                              1]
+                                                              2]
                                                           .oldRating)) /
                                                   2)
                                               .toStringAsFixed(2),
@@ -398,16 +398,16 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .result
                                                                   .length -
-                                                              2]
-                                                          .oldRating) -
+                                                              1]
+                                                          .newRating) -
                                                       (snapshot
                                                           .data
                                                           .result[snapshot
                                                                   .data
                                                                   .result
                                                                   .length -
-                                                              1]
-                                                          .newRating)) /
+                                                              2]
+                                                          .oldRating)) /
                                                   2)
                                               .toStringAsFixed(2),
                                           style: TextStyle(

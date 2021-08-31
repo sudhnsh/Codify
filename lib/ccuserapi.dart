@@ -118,8 +118,8 @@ class Contest {
 
   String name;
   int rating;
-  int globalRank;
-  int countryRank;
+  dynamic globalRank;
+  dynamic countryRank;
 
   factory Contest.fromJson(Map<String, dynamic> json) => Contest(
         name: json["name"],

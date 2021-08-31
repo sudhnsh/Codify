@@ -357,7 +357,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              1]
+                                                              2]
                                                           .rating) -
                                                       int.parse(snapshot
                                                           .data
@@ -365,7 +365,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              2]
+                                                              1]
                                                           .rating))) /
                                                   2)
                                               .toStringAsFixed(2),
@@ -414,7 +414,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              1]
+                                                              2]
                                                           .rating) -
                                                       int.parse(snapshot
                                                           .data
@@ -422,7 +422,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              2]
+                                                              1]
                                                           .rating))) /
                                                   2)
                                               .toStringAsFixed(2),
