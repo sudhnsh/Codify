@@ -357,7 +357,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              2]
+                                                              1]
                                                           .rating) -
                                                       int.parse(snapshot
                                                           .data
@@ -365,14 +365,14 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              1]
+                                                              2]
                                                           .rating))) /
                                                   2)
                                               .toStringAsFixed(2),
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             fontSize: 17,
-                                            color: Colors.red[400],
+                                            color: Colors.green[400],
                                           )),
                                       TextSpan(
                                           text: '.',
@@ -414,7 +414,7 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              2]
+                                                              1]
                                                           .rating) -
                                                       int.parse(snapshot
                                                           .data
@@ -422,14 +422,14 @@ class _RatingChangeState extends State<RatingChange> {
                                                                   .data
                                                                   .contestRatings
                                                                   .length -
-                                                              1]
+                                                              2]
                                                           .rating))) /
                                                   2)
                                               .toStringAsFixed(2),
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             fontSize: 17,
-                                            color: Colors.green[400],
+                                            color: Colors.red[400],
                                           )),
                                       TextSpan(
                                           text: '.',
